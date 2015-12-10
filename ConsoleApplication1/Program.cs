@@ -10,9 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World! I`m Yuriy.");
+            Console.WriteLine("Hello, World! My name is ...");
+            String s = Console.ReadLine();
+            s = "Hello, " + s + ".";
+            Console.WriteLine(s);
             Console.ReadLine();
-            
         }
     }
 }
