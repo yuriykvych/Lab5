@@ -14,6 +14,7 @@ namespace ConsoleApplication1
             String s = Console.ReadLine();
             s = "Hello, " + s + ".";
             Console.WriteLine(s);
+            Console.WriteLine("asdasd");
             Console.ReadLine();
         }
     }
